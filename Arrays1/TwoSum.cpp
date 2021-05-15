@@ -5,9 +5,9 @@
 
 // You can return the answer in any order.
 
-
+class Solution{
 vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int, int> hash;
+    unordered_map<int, int> hash;
 	vector<int> result;
 	for (int i = 0; i < nums.size(); i++) {
 		int numberToFind = target - nums[i];
